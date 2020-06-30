@@ -1,0 +1,29 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 80px auto 5%;
+    align-content:center;
+
+}
+.item1-header{
+    grid-column:1 / 5;
+}
+.item2-img{
+    grid-colum: 2 / 3;
+    grid-row: 2 / 3;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 8px;
+}
+li{
+    display: inline;
+    float:left;
+    padding: 8px;
+    font-size: medium;
+}
+a{
+    display: block;
+    padding: 8px;
+}

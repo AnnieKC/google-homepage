@@ -1,0 +1,1 @@
+This project is my practice of building the Google homepage.  
